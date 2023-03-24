@@ -1,0 +1,38 @@
+<div class="header">
+                <div class="logo">
+                    <div class="img"><img src="./assets/images/logos/logo.png" alt="Logo image "></div>
+                    <div class="web-name">
+                        <h2>G-Technical</h2>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="searchIcn">
+                        <span><i class="fa fa-search"></i></span>
+                    </div>
+                    <div class="sidebarBtn">
+                        <span><i class="fa fa-align-right"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="welcome">
+                <div class="head">
+                    <h1>Think About Things Differenily</h1>
+                    <h2>Welcome to Ghazna-Technical </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam unde molestiae quod fuga? Corrupti
+                        debitis possimus quas sed quos veritatis neque, nobis provident molestiae recusandae praesentium
+                        suscipit natus unde. Nostrum expedita incidunt, rem, illum soluta aut eius voluptates qui modi
+
+                </div>
+                <div class="social-links">
+                    <h3>Social links =:></h3>
+                    <div class="links">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>

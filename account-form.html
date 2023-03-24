@@ -1,0 +1,280 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="www.gtechnical.com">
+    <meta name="description" content="Ghazna khan portfolio simple website for social media folowers and">
+
+    <title>Get your Dashboard</title>
+    <link rel="stylesheet" href="./assets/css/font-awesome/all.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="./assets/js/font-awesome/all.js" defer></script>
+</head>
+
+<body>
+    <div class="website h-auto">
+
+
+
+
+
+
+
+
+
+        <!-- ************************
+        header 
+        ************************* -->
+        <div class="header hader-local">
+            <div class="logo">
+                <div class="img logo-local-img"><img src="./assets/images/logos/logo.png" alt="Logo image "></div>
+                <div class="web-name">
+                    <h2>G-Technical</h2>
+
+                </div>
+            </div>
+            <div class="right">
+                <div class="searchIcn">
+                    <span><i class="fa fa-search"></i></span>
+                </div>
+                <div class="sidebarBtn">
+                    <span><i class="fa fa-align-right" id="sidebarIcn"></i></span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main">
+
+            <!-- ************************
+            work 
+            *********************** -->
+            <div class="work">
+                <h1>Get Your Dashboard</h1>
+                <div class="forms">
+
+
+
+
+
+
+
+
+
+
+
+                    <!-- *****************************
+                    signup form 
+                    **************************** -->
+                    <div class="signup-form form-block-container" style="display: none;">
+                        <h2>Create your account </h2>
+                        <form action="#" method="post" id="form-signup" enctype="multipart/form-data"
+                            autocomplete="off">
+
+
+                            <div class="user-img">
+                                <div class="img-signup"><img id="prev-img" src="./assets/images/extra/selectImg.jpg">
+                                </div>
+                                <input type="file" name="user-img" id="user-img-input" required accept="image/*">
+                            </div>
+
+
+                            <fieldset>
+                                <legend>Personal Details </legend>
+                                <div class="user-personal input-big-block">
+                                    <div class="user-first-name inner-big-block">
+                                        <div class="input">
+                                            <span><i class="fa fa-user"></i></span>
+                                            <input type="text" name="user-first-name" id="user-firstname-input"
+                                                placeholder="First name" required minlength="2" maxlength="20">
+                                        </div>
+                                        <span class="error">This field are required</span>
+                                    </div>
+                                    <div class="user-last-name inner-big-block">
+                                        <div class="input">
+                                            <span><i class="fa fa-user"></i></span>
+                                            <input type="text" name="user-last-name" id="user-lastname-input"
+                                                placeholder="Last name" required minlength="2" maxlength="20">
+                                        </div>
+                                        <span class="error">This field are required</span>
+                                    </div>
+                                </div>
+                            </fieldset>
+
+
+
+
+                            <fieldset>
+                                <legend>Contacts</legend>
+                                <div class="user-account input-big-block">
+                                    <div class="user-email inner-big-block">
+                                        <div class="input">
+                                            <span><i class="fa-brands fa-google"></i></span>
+                                            <input type="email" name="email" id="email-signup-input"
+                                                placeholder="enter email" required minlength="4" maxlength="40">
+                                        </div>
+                                        <span class="error">This field are required</span>
+                                    </div>
+                                    <div class="user-phone inner-big-block">
+                                        <div class="input">
+                                            <span><i class="fa fa-phone"></i></span>
+                                            <input type="text" name="phone" id="phone-signup-input"
+                                                placeholder="enter phone" required minlength="4" maxlength="16">
+                                        </div>
+                                        <span class="error">This field are required</span>
+                                    </div>
+                                </div>
+                            </fieldset>
+
+
+
+
+                            <fieldset>
+                                <legend>Password</legend>
+                                <div class="user-passwords input-big-block">
+                                    <div class="user-password inner-big-block">
+                                        <div class="input">
+                                            <span><i class="fa fa-key"></i></span>
+                                            <input type="password" name="password" id="password-signup-input"
+                                                placeholder="enter password" required minlength="6" maxlength="16">
+                                        </div>
+                                        <span class="error">This field are required</span>
+                                    </div>
+                                    <div class="user-confirm-password inner-big-block">
+                                        <div class="input">
+                                            <span><i class="fa fa-key"></i></span>
+                                            <input type="password" name="confirm_password"
+                                                id="confirm-password-signup-input" placeholder="confirm password "
+                                                required minlength="6" maxlength="16">
+                                        </div>
+                                        <span class="error">This field are required</span>
+                                    </div>
+                                </div>
+                            </fieldset>
+
+
+
+
+                            <div class="dailogs">
+                                <div class="show-password dailog-item">
+                                    <label for="show-password" id="label-password-checkbox">show password</label>
+                                    <input type="checkbox" id="show-password">
+                                </div>
+                                <div class="agree dailog-item">
+                                    <label for="agree">Iam Agree of this privacy and policy</label>
+                                    <input type="checkbox" name="agree_or_not" id="agree-checkbox">
+                                </div>
+                            </div>
+                            <div class="user-form-submit-btn">
+                                <button id="signup-form-button" type="button" disabled>Signup</button>
+                            </div>
+                        </form>
+                    </div>
+
+
+
+
+
+
+
+
+                    <!-- ********************** 
+                    login form 
+                    *********************** -->
+                    <div class="signin-form form-block-container">
+                        <h2>Signin to your account</h2>
+                        <div class="container-signin">
+                            <img src="./assets/images/extra/signin.png" alt="singin picture">
+                            <form action="#" method="post" id="form-signin" autocomplete="off">
+                                <div class="user-email inner-big-block">
+                                    <div class="input">
+                                        <span><i class="fa-brands fa-google"></i></span>
+                                        <input type="text" name="email" id="signin-email-input"
+                                            placeholder="enter email" required minlength="6" maxlength="40">
+                                    </div>
+                                    <span class="error">This field are required</span>
+                                </div>
+                                <div class="user-password inner-big-block">
+                                    <div class="input">
+                                        <span><i class="fa fa-key"></i></span>
+                                        <input type="password" name="password" id="password-signin-input"
+                                            placeholder="enter  password" required minlength="6" maxlength="12">
+                                    </div>
+                                    <span class="error">This field are required</span>
+                                </div>
+                                <div class="submit-signin-button user-form-submit-btn">
+                                    <button type="button" id="form-signin-button">Signin</button>
+                                    <button type="button" id="forget-password-button">Forget Password </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+
+                    <!-- ******************* 
+                    last line of options 
+                    ********************* -->
+                    <div class="links-form">
+                        <a href="#" class="changeForm">Not have an account </a>
+                        <a href="#">Privacy</a>
+                        <a href="#">Policies </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <!-- *********************
+            sidebar 
+            ********************* -->
+            <div class="sidebar">
+                <div class="close"><span id="close-sidebar"><i class="fa fa-close"></i></span></div>
+                <div class="sidebar-items">
+                    <a href="/"> <span><i class="fa fa-home"></i></span> Home</a>
+                    <a href="/blog/"> <span><i class="fa fa-blog"></i></span> Blog</a>
+                    <a href="/jobs-updates/"> <span><i class="fa fa-flag"></i></span> Jobs & updates </a>
+                    <a href="/app-forms"> <span><i class="fa fa-leaf"></i></span> Application Forms </a>
+                    <a href="/students-information"> <span><i class="fa fa-info"></i></span> Info Of DIT, BISEP,BTE
+                        etc</a>
+                    <a href="/courses/"> <span><i class="fa fa-book"></i></span> Courses</a>
+                    <a href="/contact/"> <span><i class="fa fa-phone"></i></span> Contact us</a>
+                    <a href="/join-us/"> <span><i class="fa-brands fa-github"></i></span> Join us</a>
+                    <a href="/cv/"> <span><i class="fa fa-user"></i></span> About</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- footer  -->
+        <div class="footer">
+            <div class="container">
+                <p>Copyright&copy; Allright Reserved gt.com Version--1.0.0 2023 <a href="#">Privay & policy</a> . </p>
+            </div>
+        </div>
+        <!-- end footer  -->
+    </div>
+
+    <script type="module">
+        import { allSidebar, imagePreviewSignup, formChanger, showHIdePassword } from "./assets/js/main.js"
+        allSidebar();
+        imagePreviewSignup();
+        formChanger();
+        showHIdePassword();
+    </script>
+
+    <script>
+        // signup form validation
+        
+    </script>
+
+</body>
+
+</html>

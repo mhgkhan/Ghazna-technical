@@ -1,0 +1,115 @@
+ <div class="row">
+                        <h4> Main Pages  </h4>
+                        <div class="boxes">
+                            <a href="/">
+                                <div class="box fir">
+                                    <div class="preview">
+                                        <div class="sticker">✔</div>
+                                        <h5> Your Dashboard </h5>
+                                        <p> On Your Professional Dashboard <br> <b>Your Posts & Activities </b>
+                                           <br>Click to Edit your profile 
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="box fir">
+                                    <div class="preview">
+                                        <div class="sticker">✔</div>
+                                        <h5> BLOG </h5>
+                                        <p> Write an Articles on 
+                                            <br> <b> Education, <br> Life Hacks etc . </b> <br> after signup
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="box fir">
+                                    <div class="preview">
+                                        <div class="sticker">✔</div>
+                                        <h5>Jobs & Updates</h5>
+                                        <p> New Governamet and Private Online Jobs in  
+                                            <br> <b> ETEA, NTS, PTS  </b> Departmens are avaliabel with advs 
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h4> Services & Info  </h4>
+                        <div class="boxes">
+                            <a href="#">
+                                <div class="box sec">
+                                    <div class="preview">
+                                        <div class="sticker">✔</div>
+                                        <h5>Application forms </h5>
+                                        <p> For
+                                            <br> <b>FORM-B, DOMICILE & JOBS ETC </b> <br> Are Avliable Now
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="box sec">
+                                    <div class="preview">
+                                        <div class="sticker">✔</div>
+                                        <h5>INFORMATION</h5>
+                                        <p> For students of
+                                            <br> <b>  DIT &nbsp; BIT &nbsp; Etc </b> <br> Click to show 
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="box sec">
+                                    <div class="preview">
+                                        <div class="sticker">✔</div>
+                                        <h5>Courses </h5>
+                                        <p> Beginner to intermiedate 
+                                            <br> <b>Web Developement& Tips Tricks </b> 
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h4> Contact-us & Joining   </h4>
+                        <div class="boxes">
+                            <a href="#">
+                                <div class="box thi">
+                                    <div class="preview">
+                                        <div class="sticker">✔</div>
+                                        <h5>Contact Us Form </h5>
+                                        <p> Under the Privacy and Policies 
+                                            <br> <b> Problems reports  & Any Questions </b>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="box thi">
+                                    <div class="preview">
+                                        <div class="sticker">✔</div>
+                                        <h5> Get in the touch </h5>
+                                        <p> Msg me if you want work in 
+                                            <br> <b> MERN,Data Entry & Graphics</b> <br> 
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="box thi">
+                                    <div class="preview">
+                                        <div class="sticker">✔</div>
+                                        <h5> About Me (CV) </h5>
+                                        <p> Also you can see my 
+                                            <br> <b> Projects, Gallery, Accounts</b>
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
