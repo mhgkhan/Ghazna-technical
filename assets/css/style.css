@@ -823,6 +823,9 @@ body .website .intro {
 }
 
 @media screen and (max-width:770px) {
+  .website .intro{
+    background-size: cover !important;
+  }
   .welcome .head {
     width: 98% !important;
     margin: 2rem 5px;
@@ -879,10 +882,12 @@ body .website .intro {
   }
 
   .social-links {
-    flex-direction: column;
+    flex-direction: column !important;
     align-items: flex-start !important;
   }
-
+  .links{
+    flex-wrap: wrap !important;
+  }
   .container {
     width: 100% !important;
     padding: 10px 8px !important;
