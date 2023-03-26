@@ -52,17 +52,21 @@ h3,
 h4 {
   font-family: "Ubuntu", sans-serif !important;
 }
-
+ 
 h6,
-h5,legend,label {
+h5,
+legend,
+label {
   font-family: "Alegreya Sans", sans-serif !important;
 }
 
-p,input {
+p,
+input {
   font-family: "Alegreya Sans italic", sans-serif !important;
 }
-button:disabled{
-  cursor:no-drop !important;
+
+button:disabled {
+  cursor: no-drop !important;
 }
 
 body {
@@ -89,9 +93,20 @@ body::scrollbar-thumb {
   border-radius: 12px;
 }
 
+body::-webkit-scrollbar {
+  width: 4px;
+  background: none;
+}
+
+body::-webkit-scrollbar-thumb {
+
+  background: #0a60f3;
+  border-radius: 12px;
+}
+
 body .website {
   width: 85%;
-  height: 100%;
+  height: auto;
   margin: 1rem auto;
   border-radius: 10px;
   box-shadow: 1px 0px 0px 6px #ffffffbd, 1px 1px 1px 5px #ffffffbf;
@@ -526,13 +541,13 @@ body .website .intro {
 }
 
 .main .sidebar {
-  width: 350px;
+  width: 300px;
   height: 100%;
   background: #d7d2d2;
   position: absolute;
   top: 0;
   right: 0;
-  transform: translateX(300px);
+  transform: translateX(280px);
 }
 
 .sidebar .close {
@@ -789,6 +804,209 @@ body .website .intro {
 .links-form a:hover {
   color: #0a60f3;
 }
+
+@keyframes ani {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+.user-data {
+  width: 100%;
+}
+
+.user-account-header {
+  margin-top: 1rem;
+  display: flex;
+}
+
+.user-account-header .user-account-profile-image {
+  width: 300px;
+  height: 300px;
+  border: 1px solid orange;
+  margin: 0px 1rem;
+  margin-top: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+.user-account-profile-image img {
+  position: relative;
+}
+
+.user-account-profile-image .updateBtn {
+  position: absolute;
+  top: -100;
+  background: #ffff00a6;
+  width: 100%;
+  transition: 1s;
+  display: flex;
+  align-items: center;
+}
+
+.user-account-header .user-account-actions-buttons {
+  width: 100%;
+  border-bottom: 3px dotted yellow;
+  margin-left: 1rem;
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.user-account-header .user-account-actions-buttons a {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  background: #731717;
+  color: white;
+  margin: 1rem auto;
+  padding: 0px 20px;
+  font-size: 1.3rem;
+  border-radius: 12px;
+  box-shadow: 1px 3px 2px 1px #5f5f5f;
+  padding: 7px 12px;
+}
+
+.user-account-actions-buttons a:hover {
+  transform: scale(1.03, 1.03);
+}
+
+.user-account-actions-buttons h1 {
+  width: 95%;
+  border-radius: 12px;
+  margin: 0px auto;
+}
+
+.user-account-actions-buttons a:nth-child(2) {
+  background: yellow;
+  color: #731717;
+}
+
+.user-account-actions-buttons a:nth-child(3) {
+  background: orange;
+  color: #731717;
+}
+
+.user-account-actions-buttons a:nth-child(4) {
+  background: orangered;
+  color: #731717;
+}
+
+.user-account-actions-buttons a:nth-child(5) {
+  background: yellow;
+  color: #731717;
+}
+
+
+.user-account-container {
+  margin-top: 1rem;
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.user-account-container .user-account-sidebar {
+  width: 250px;
+  height: auto;
+  padding: 6px;
+  /* border: 1px solid red; */
+  margin: 0px 1rem;
+  box-shadow: 0px 3px 1px 3px #948c8c79;
+  background: white;
+  border-radius: 5px;
+}
+
+.user-account-sidebar ul li {
+  list-style: none;
+  margin: .7rem;
+  border-bottom: 1px solid gray;
+  padding: 4px 7px;
+  border-radius: 4px;
+}
+
+
+.user-account-sidebar ul li a {
+  font-size: 1.2rem;
+  color: #731717;
+}
+
+.user-account-sidebar ul li:hover {
+  background: #731717;
+}
+
+.user-account-sidebar ul li:hover a {
+  color: white;
+}
+
+
+.user-information {
+  width: 95%;
+  height: auto;
+  padding: 8px 9px;
+  margin: 0px auto;
+  /* border: 1px solid red; */
+}
+
+.user-information fieldset {
+  width: 90%;
+  margin: .7rem 5px;
+  padding: 4px 12px;
+}
+
+.user-information fieldset legend {
+  padding: 4px 9px;
+}
+
+.row-info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.row-info .field {
+  width: 30%;
+  margin: .5rem auto;
+}
+.row-info .field .head-row-info span{
+  color: black;
+  font-weight: bold;
+}
+.row-info .field .text-row-info{
+  padding: 4px 7px;
+  display: inline-block;
+  background: orangered;
+  color: white;
+  border-radius: 7px;
+  width: 100%;
+  margin-top: .4rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.row-full{
+ flex-direction: column !important;
+}
+.field-complete{
+  width: 100% !important;
+}
+.field-complete .text-row-info{
+  width: 100%;
+}
+
 
 @keyframes ani {
   from {

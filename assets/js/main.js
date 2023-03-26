@@ -48,19 +48,19 @@ export function allSidebar() {
     let clicked = true;
     sidebarBtn.addEventListener("click", e => {
         if (clicked) {
-            document.getElementById("sidebarIcn").classList.remove("fa-align-right");
+            // document.getElementById("sidebarIcn").classList.remove("fa-align-right");
             sidebar.setAttribute("style", "transform:translateX(0px)")
-            document.getElementById("sidebarIcn").classList.add("fa-close");
+            // document.getElementById("sidebarIcn").classList.add("fa-close");
             clicked = false;
         }
         else {
-            sidebar.setAttribute("style", "transform:translateX(300px)")
+            sidebar.setAttribute("style", "transform:translateX(280px)")
             clicked = true;
         }
     })
     closeSidebar.addEventListener("click", e => {
         clicked = true;
-        sidebar.setAttribute("style", "transfrom:translateX(300px);")
+        sidebar.setAttribute("style", "transfrom:translateX(280px);")
     })
     sidebar.addEventListener("mouseenter", () => {
         clicked = false;
@@ -68,7 +68,7 @@ export function allSidebar() {
     })
     sidebar.addEventListener("mouseleave", () => {
         clicked = true;
-        sidebar.setAttribute("style", "transformL:translateX(300px);");
+        sidebar.setAttribute("style", "transformL:translateX(280px);");
     })
 }
 
